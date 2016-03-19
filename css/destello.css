@@ -1,3 +1,16 @@
+/*Lato font face*/
+@font-face{
+    font-family:'myLatoLight';
+    src: url('../assets/fonts/Lato-Light.ttf') format('truetype');
+}
+@font-face{
+    font-family:'myLatoBold';
+    src: url('../assets/fonts/Lato-Semibold.ttf') format('truetype');
+}
+@font-face{
+    font-family:'myLatoThin';
+    src: url('../assets/fonts/Lato-Thin.ttf') format('truetype');
+}
 #landing{
     width: 100%;
     height: 643px;
@@ -42,6 +55,7 @@
    padding: 20px 32px;
     margin: 20px 32px;
     color: #ffc800;
+    font-family: 'myLatoBold'
 }
 .welcome{
     width: 100%;
@@ -52,6 +66,7 @@
 .welcome h1{
     text-align: justify;
     letter-spacing: 3px;
+    font-family: 'myLatoLight';
 }
 #services{
     width: 100%;
@@ -86,5 +101,6 @@ footer{
     width: 100%;
     padding: 0;
     margin: 0;
-    background: #9e9e9e;
+    background: #000;
+    color: #ffc800;
 }
