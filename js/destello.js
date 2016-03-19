@@ -6,7 +6,10 @@ $(window).on('scroll',function(){
     var stop = Math.round($(window).scrollTop());
     if (stop > 0) {
         $('.menu').addClass('pastnav');
+        $('.title').addClass('shimmer');
+
     } else {
         $('.menu').removeClass('pastnav');
+        $('.title').removeClass('shimmer');
     }
 });
